@@ -56,7 +56,7 @@ const Footer = () => (
           </>
         }
       >
-        <li>
+        {/* <li>
           <Link href="/">Home</Link>
         </li>
         <li>
@@ -64,9 +64,9 @@ const Footer = () => (
         </li>
         <li>
           <Link href="/">Docs</Link>
-        </li>
+        </li> */}
         <li>
-          <Link href="https://github.com/Mon-Rico/HD2024">GitHub</Link>
+          <Link href=""></Link>
         </li>
       </CenteredFooter>
     </Section>
