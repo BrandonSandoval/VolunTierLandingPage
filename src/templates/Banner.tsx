@@ -1,3 +1,7 @@
+import Link from 'next/link';
+
+import { Button } from '@/button/Button';
+
 import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
@@ -6,11 +10,11 @@ const Banner = () => (
     <CTABanner
       title="Sign up for Free!"
       subtitle="Join your community Today."
-      /* button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+      button={
+        <Link href="">
           <Button>Click Here!</Button>
         </Link>
-      } */
+      }
     />
   </Section>
 );

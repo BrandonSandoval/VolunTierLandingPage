@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { Button } from '@/button/Button';
+
 import { Background } from '../background/Background';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
@@ -25,11 +27,11 @@ const Hero = () => (
           </>
         }
         description="Volunteer more to rank up!"
-        /* button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+        button={
+          <Link href="">
             <Button xl>Download Your App</Button>
           </Link>
-        } */
+        }
       />
     </Section>
   </Background>
